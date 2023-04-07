@@ -9,5 +9,6 @@ public class Main {
     System.out.println(BarkingDog.shouldWakeUp(true, 23));
     System.out.println(LeapYearCalculator.isLeapYear(2000));
     System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(3.1416345, 3.14167456));
+    System.out.println(EqualSumChecker.hasEqualSum(1,1,2));
   }
 }
