@@ -6,5 +6,6 @@ public class Main {
     PositiveNegativeZero.checkNumber(-1);
     SpeedConverter.printConversion(75.114);
     MegaBytesConverter.printMegaBytesAndKiloBytes(5000);
+    System.out.println(LeapYearCalculator.isLeapYear(2000));
   }
 }
