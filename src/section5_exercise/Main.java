@@ -11,5 +11,9 @@ public class Main {
     System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(3.1416345, 3.14167456));
     System.out.println(EqualSumChecker.hasEqualSum(1,1,2));
     System.out.println(TeenNumberChecker.hasTeen(18,23,22));
+    System.out.println(AreaCalculator.area(5));
+    System.out.println(AreaCalculator.area(5, 5));
+    System.out.println(AreaCalculator.area(-1));
+
   }
 }
