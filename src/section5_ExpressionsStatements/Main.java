@@ -15,6 +15,5 @@ public class Main {
     System.out.println(AreaCalculator.area(5, 5));
     System.out.println(AreaCalculator.area(-1));
 
-    MinutesToYearsAndDaysCalculator.printYearsAndDays(1231245);
   }
 }
