@@ -1,4 +1,4 @@
-package section5_exercise;
+package section5_ExpressionsStatements;
 
 public class TeenNumberChecker {
 
