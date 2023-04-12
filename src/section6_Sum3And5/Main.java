@@ -1,4 +1,4 @@
-package section6_Sum3And5Challenge;
+package section6_Sum3And5;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package section6_ThePrimeNumberChallenge;
+package section6_ThePrimeNumber;
 
 public class Main {
 
