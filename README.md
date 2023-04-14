@@ -15,9 +15,9 @@
     - develop : 현재 진행 중인 Chapter Branch
       - ex)develope/chapter1, develope/chapter2
     - feature/concept : 현재 진행 중인 챕터에서, 개념 부분의 Branch
-      - ex)feature/concept[conceptName]
+      - ex)feature/concept/conceptName]
     - feature/coding : 현재 진행 중인 챕터에서, Coding Exercise branch
-      - ex)feature/coding[ProblemName]
+      - ex)feature/coding/ProblemName]
     - release : 완료된 챕터의 branch 
     - hotfix : 학습 완료된 버전에서 수정할 부분을 추가하는 branch
 ### Package Naming 규칙
