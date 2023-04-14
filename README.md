@@ -13,7 +13,7 @@
   - 학습에 브랜치 전략 적용 하기
     - master : 완료된 모든 release branch의 merge branch
     - develop : 현재 진행 중인 Chapter Branch
-      - ex)develope/chapter1, develope/chapter2
+      - ex)develope/chapter1_[chapterName], develope/chapter2_[chapterName]
     - feature/concept : 현재 진행 중인 챕터에서, 개념 부분의 Branch
       - ex)feature/concept/conceptName]
     - feature/coding : 현재 진행 중인 챕터에서, Coding Exercise branch
