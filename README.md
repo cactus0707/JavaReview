@@ -20,3 +20,7 @@
       - ex)feature/coding[ProblemName]
     - release : 완료된 챕터의 branch 
     - hotfix : 학습 완료된 버전에서 수정할 부분을 추가하는 branch
+### Package Naming 규칙
+   - [SectionName]_[Concept | CodingExerciseName]
+   - ex) section5_ExpressionStatements
+   - ex) section6_DigitSum
