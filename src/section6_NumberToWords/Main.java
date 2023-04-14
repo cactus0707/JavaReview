@@ -10,11 +10,10 @@ public class Main {
     if (number < 0) {
       System.out.println("Invalid Value");
     }
-    int countNumber = getDigitCount(number);
     number = reverse(number);
     int remainder = 0;
 
-    for (int i = 0; i < countNumber; i++) {
+    for (int i = 0; i < getDigitCount(number); i++) {
       remainder = number % 10;
       switch (remainder) {
         case 0:
