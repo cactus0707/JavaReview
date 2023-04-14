@@ -11,11 +11,12 @@
     - hotfix : 출시 버전에서 발생한 버그를 수정하는 브랜치
 ### To - Be
   - 학습에 브랜치 전략 적용 하기
-    - master : (develope 챕터 -2) 의 브랜치
-      - 학습 완료 후 챕터 마지막을 가르킴 
+    - master : 완료된 모든 release branch의 merge branch
     - develop : 현재 진행 중인 Chapter Branch
+      - ex)develope/chapter1, develope/chapter2
     - feature/concept : 현재 진행 중인 챕터에서, 개념 부분의 Branch
-    - feature/coding : 현재 진행 중인 챕터에서, Coding Exercise branch  
-    - release : (develop 챕터 -1) 의 브랜치
-      - 학습 완료 후 챕터 마지막을 가르팀
+      - ex)feature/concept[conceptName]
+    - feature/coding : 현재 진행 중인 챕터에서, Coding Exercise branch
+      - ex)feature/coding[ProblemName]
+    - release : 완료된 챕터의 branch 
     - hotfix : 학습 완료된 버전에서 수정할 부분을 추가하는 branch
