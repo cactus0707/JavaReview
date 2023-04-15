@@ -19,6 +19,7 @@
     - feature/coding : 현재 진행 중인 챕터에서, Coding Exercise branch
       - ex)feature/coding/ProblemName]
     - release : 완료된 챕터의 branch 
+      - ex) release/chapter1, release/chapter2 ...etc.
     - hotfix : 학습 완료된 버전에서 수정할 부분을 추가하는 branch
 ### Package Naming 규칙
    - [SectionName_Subtitle]_[Concept | CodingExerciseName]
