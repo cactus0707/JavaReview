@@ -1,11 +1,29 @@
 package section07inheritance.classchallenge;
 
 public class Account {
+
   private String number;
   private double balance;
   private String customerName;
   private String customerEmail;
   private String customerPhone;
+
+  public Account() {
+    System.out.println("Empty constructor called");
+  }
+
+  public Account(String number,
+                 double balance,
+                 String customerName,
+                 String email,
+                 String phone) {
+    System.out.println("Account constructor with parameters called");
+    this.number = number;
+    this.balance = balance;
+    this.customerName = customerName;
+    customerEmail = email;
+    customerPhone = phone;
+  }
 
   public void depositFunds(double depositAmount) {
     balance += depositAmount;
@@ -20,8 +38,7 @@ public class Account {
       System.out.println("Insufficient Funds! You only have $" +
           balance +
           " in your account");
-    }
-    else {
+    } else {
       balance -= withdrawalAmount;
       System.out.println("Withdrawal of $" +
           withdrawalAmount +
@@ -29,6 +46,7 @@ public class Account {
           balance);
     }
   }
+
   public String getNumber() {
     return number;
   }
