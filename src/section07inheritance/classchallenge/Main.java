@@ -20,6 +20,7 @@ public class Main {
     bobsAccount.withdrawFunds(45.55);
     bobsAccount.withdrawFunds(54.46);
     bobsAccount.withdrawFunds(54.45);
-
+    Account flynnAccount = new Account("flynn", "flynn@email.com", "12345");
+    System.out.println("Account number : " + flynnAccount.getNumber() + "; name " + flynnAccount.getCustomerName());
   }
 }
