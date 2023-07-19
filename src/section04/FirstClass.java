@@ -1,4 +1,4 @@
-package SectionFour;
+package section04;
 
 public class FirstClass {
 
