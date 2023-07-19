@@ -1,4 +1,4 @@
-package section5_ExpressionsStatements;
+package section05_ExpressionsStatements;
 
 public class PlayingCat {
 
